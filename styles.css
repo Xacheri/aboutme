@@ -87,6 +87,22 @@ body {
     .edItem {
         margin-bottom: 0.5rem;
     }
+
+/* For Fun Screen */
+    #pleaseh2 {
+        color: #FDFF00;
+        margin-top: 10px;
+    }
+
+    form > input {
+        color: #000;
+    }
+
+    #submit {
+        margin: 2rem;
+        color: #000;
+    }
+
 /* General Screen Classes */
 
     p {
