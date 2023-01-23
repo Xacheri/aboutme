@@ -40,12 +40,6 @@ body {
         font-size: 16px;
     }
 
-    #homeScreen > p {
-        margin: 10px;
-        text-indent: 1rem;
-        font-size: 10px;
-    }
-
     ul {
         font-size: 12px;
     }
@@ -55,13 +49,62 @@ body {
         height: 171px;
         margin: 10px;
     }
+/* Goals Screen */
+    #goalsScreen > h2 {
+        color: #EA82E5;
+        margin-top: 10px;
+    }
 
+    #goalsScreen > h3 {
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 1rem;
+    }
+
+    #learn {
+        color: #46BFEE;
+    }
+
+    #build {
+        color: #D03E19;
+    }
+
+    #play {
+        color: #DB851C;
+    }
+
+/* Education Screen */
+    #educationScreen > h2 {
+        color: #48FB00;
+        margin-top: 10px;
+    }
+
+    #educationScreen > h3 {
+        font-size: 16px;
+        margin: 1rem;
+    }
+
+    .edItem {
+        margin-bottom: 0.5rem;
+    }
 /* General Screen Classes */
+
+    p {
+        margin: 10px;
+        text-indent: 1rem;
+        font-size: 10px;
+    }
 
     .navhint {
         position: absolute;
         bottom: 5px;
         right: 5px;
+    }
+
+    .navhintReverse {
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
     }
 
 
@@ -177,7 +220,7 @@ body {
 
     /* Font Size Queries */
 
-        #homeScreen > p {
+        p {
             font-size: 12px;
         }
 }
